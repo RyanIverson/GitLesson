@@ -19,11 +19,6 @@ proc means data=out.cchstemp;
 var hwtgbmi wts_m pacdtle fvcdtot;
 run;
 
-*////////////////////////////////////////////
- /											/
- / 				   FIXMISS					/
- /											/
- ////////////////////////////////////////////;
  
 data recode;
 set out.cchstemp;
